@@ -1,0 +1,24 @@
+﻿<Window x:Class="Projekat.DijalogZaDodavanjeEtikete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekat"
+        mc:Ignorable="d"
+        Title="Kreiranje etikete" Height="295" Width="400">
+    <Grid>
+        <Label Content="Unesite osnovne podatke o etiketi:" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" VerticalAlignment="Top" Width="259" FontSize="16"/>
+        <Button Content="Kreiraj" HorizontalAlignment="Left" Height="32" Margin="291,223,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.374,0.888" FontSize="16" FontWeight="Bold"/>
+        <Label Content="*Oznaka:" HorizontalAlignment="Left" Height="32" Margin="15,46,0,0" VerticalAlignment="Top" Width="78" FontSize="16"/>
+        <Label Content="*Boja:" HorizontalAlignment="Left" Height="32" Margin="15,83,0,0" VerticalAlignment="Top" Width="69" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="98,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" FontSize="16"/>
+        <Label Content="*Opis:" HorizontalAlignment="Left" Height="32" Margin="15,120,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="4.762,-2.966" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="85" Margin="98,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" RenderTransformOrigin="-0.272,-1.459" FontSize="16"/>
+        <ComboBox HorizontalAlignment="Left" Height="32" Margin="98,83,0,0" VerticalAlignment="Top" Width="149" FontSize="16">
+            <ListBox Height="100" Width="100"/>
+        </ComboBox>
+        <Button Content="Izmeni" HorizontalAlignment="Left" Height="32" Margin="200,223,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.374,0.888" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Odustani" HorizontalAlignment="Left" Height="32" Margin="108,223,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.374,0.888" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

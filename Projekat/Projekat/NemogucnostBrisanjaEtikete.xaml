@@ -1,0 +1,15 @@
+﻿<Window x:Class="Projekat.NemogucnostBrisanjaEtikete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekat"
+        mc:Ignorable="d"
+        Title="" Height="180" Width="590">
+    <Grid>
+        <Button Content="U redu" HorizontalAlignment="Left" Height="32" Margin="260,97,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.374,0.888" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Nije moguće obrisati etiketu jer postoje resursi koji je koriste!" HorizontalAlignment="Center" Height="32" Margin="126,40,0,0" VerticalAlignment="Top" Width="456" FontSize="16"/>
+        <Image HorizontalAlignment="Left" Height="109" Margin="10,30,0,0" VerticalAlignment="Top" Width="121" RenderTransformOrigin="-0.227,0.173" Source="C:\Users\User\source\repos\Projekat\Projekat\slike\znakUpozorenja.png"/>
+
+    </Grid>
+</Window>
